@@ -53,4 +53,5 @@ img {
   flex-direction: row;
   gap: 5px;
   justify-content: center;
+  margin-top: 4px;
 }

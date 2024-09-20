@@ -3,12 +3,13 @@
   @for (pokemon of pokemons; track pokemon.id) {
   <a class="pokemon-card">
     <img [src]="pokemon.imageUrl">
-    <div class="id">{{pokemon.id}}</div>
-    <div class="name">{{pokemon.name}}</div>
+    <div class="id">{{pokemon.id | digitNumber: 3 }}</div>
+    <div class="name">{{pokemon.name | titlecase}}</div>
     <div class="types">
       @for (type of pokemon.types; track $index) {
-      <div>{{type}}</div>
-      }
+        <app-pokemon-type [type]="type"></app-pokemon-type>
+        }
+        
     </div>
   </a>
   }
