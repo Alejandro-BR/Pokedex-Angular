@@ -1,1 +1,18 @@
-<p>pokemon-list works!</p>
+<h1>Listado de pokémons</h1>
+<section class="pokemon-list">
+  @for (pokemon of pokemons; track pokemon.id) {
+  <a class="pokemon-card">
+    <img [src]="pokemon.imageUrl">
+    <div class="id">{{pokemon.id}}</div>
+    <div class="name">{{pokemon.name}}</div>
+    <div class="types">
+      @for (type of pokemon.types; track $index) {
+      <div>{{type}}</div>
+      }
+    </div>
+  </a>
+  }
+  @empty {
+  <div>Cargando...</div>
+  }
+</section>
