@@ -55,3 +55,11 @@ img {
   justify-content: center;
   margin-top: 4px;
 }
+
+.filter {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  }
+  

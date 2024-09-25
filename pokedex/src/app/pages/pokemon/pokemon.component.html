@@ -1,0 +1,16 @@
+@if (pokemon) {
+  <h1>#{{pokemon.id | digitNumber: 3}} {{pokemon.name | titlecase}}</h1>
+  <section>
+  <img [src]="pokemon.imageUrl" />
+  <div class="info">
+  <div class="types">
+  @for (type of pokemon.types; track $index) {
+  <app-pokemon-type [type]="type"></app-pokemon-type>
+  }
+  </div>
+  <div>Altura: {{pokemon.height / 10}}m</div>
+  <div>Peso: {{pokemon.weight / 10}}Kg</div>
+  </div>
+  </section>
+  }
+  
