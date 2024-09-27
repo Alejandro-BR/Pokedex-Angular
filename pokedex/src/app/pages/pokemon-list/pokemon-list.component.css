@@ -61,5 +61,17 @@ img {
   gap: 5px;
   width: 100%;
   justify-content: center;
-  }
-  
+}
+
+#barra{
+  margin: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+#buscar{
+  margin: 20px;
+  border-radius: 20px;
+  width: 100px;
+}

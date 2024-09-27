@@ -24,3 +24,16 @@ img {
   display: flex;
   gap: 10px;
 }
+
+button {
+  margin: 20px;
+  border-radius: 20px;
+  color: black;
+}
+
+#buttonBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+}

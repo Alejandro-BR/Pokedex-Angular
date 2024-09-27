@@ -33,7 +33,7 @@ export class PokeapiService {
     return pokemons;
   }
 
-  async getPokemonDatail(id: number): Promise<PokemonDetail> {
+  async getPokemonDetail(id: number): Promise<PokemonDetail> {
     const requests: Observable<Object> = this.http.get(`${this.BASE_URL}pokemon/${id}`)
     const dataRaw: any = await lastValueFrom(requests);
 
