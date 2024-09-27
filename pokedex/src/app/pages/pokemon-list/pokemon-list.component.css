@@ -75,3 +75,11 @@ img {
   border-radius: 20px;
   width: 100px;
 }
+
+#tituloImg {
+  width: 50%;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
