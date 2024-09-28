@@ -14,13 +14,13 @@ La aplicación consta de dos secciones:
 
    - En esta sección se muestra una lista con los 151 Pokémon de la primera generación.
 
-   - http://localhost:4200/ --> '' PokemonList
+   <!-- - http://localhost:4200/  '' PokemonList --> 
 
 2. Detalle de Pokémon:
 
    - Al seleccionar un Pokémon en la lista, se despliega una vista detallada.
 
-   - http://localhost:4200/pokemon/id --> 'pokemon/id' PokemonDetail
+   <!-- - http://localhost:4200/pokemon/id  'pokemon/id' PokemonDetail -->
 
 <br>
 
@@ -35,7 +35,11 @@ A continuación, se presentan algunas imágenes y un video de la aplicación en 
 ![Detalle del Pokémon](/doc/img/detalle.png)
 
 ### Video de Demostración
-![Ver Video](/doc/video/video.mp4)
+
+<video width="600" controls>
+  <source src="/doc/video/video.mp4" type="video/mp4">
+  Tu navegador no soporta el video.
+</video>
 
 
 <br>
