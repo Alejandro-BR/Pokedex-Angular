@@ -41,6 +41,7 @@ A continuación, se presentan algunas imágenes y un video de la aplicación en 
   Tu navegador no soporta el video.
 </video>
 
+https://github.com/Alejandro-BR/Pokedex-Angular/blob/main/doc/video/video.mp4
 
 <br>
 
