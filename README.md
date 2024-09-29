@@ -36,12 +36,12 @@ A continuación, se presentan algunas imágenes y un video de la aplicación en 
 
 ### Video de Demostración
 
-<video width="600" controls>
+<!-- <video width="600" controls>
   <source src="/doc/video/video.mp4" type="video/mp4">
   Tu navegador no soporta el video.
-</video>
+</video> -->
 
-![Video](https://github.com/Alejandro-BR/Pokedex-Angular/blob/main/doc/video/video.mp4)
+Puedes ver el video de demostración [aquí](https://github.com/Alejandro-BR/Pokedex-Angular/blob/main/doc/video/video.mp4).
 
 <br>
 
